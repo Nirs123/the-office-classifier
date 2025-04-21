@@ -37,7 +37,7 @@ J'ai donc choisi de générer 3 graphiques pour explorer les données du dataset
 
 Le premier graphique représente le nombre total de mot sur l'ensemble des dialogues de la série.
 
-![Comptage des mots](Figure_5.png)
+![Comptage des mots](figures/Figure_5.png)
 
 Commme on pouvait s'en douter, les mots les plus fréquents sont des mots très courants que l'on appelle des stop words et qui n'apportent pas d'information. C'est pour cela que lors des pré-traitements on va les retirer pour ne pas fausser les résultats.
 
@@ -47,7 +47,7 @@ Commme on pouvait s'en douter, les mots les plus fréquents sont des mots très 
 
 Ensuite, j'ai généré un graphique représentant les personnages les plus fréquents dans les dialogues.
 
-![Personnages les plus fréquents](Figure_4.png)
+![Personnages les plus fréquents](figures/Figure_4.png)
 
 Si l'on connait la série, le graphique est assez logique, les 4 les plus présents dans les dialogues sont ceux que l'on voit toute la série et qui sont les principaux personnages.
 
@@ -59,7 +59,7 @@ Ensuite, les autres personnages sont plus ou moins présents en fonction de leur
 
 Pour finir, une dernière visualisation des interactions entre les personnages.
 
-![Interactions entre les personnages](Figure_3.png)
+![Interactions entre les personnages](figures/Figure_3.png)
 
 On peut lire le graphique de la façon suivante : Michael est très présent dans les discussions de Jan, mais Jan n'est pas tant présente dans les discussions de Michael. (C'est dû au fait que Michael a beaucoup de dialogues avec de nombreux autres personnages donc Jan n'est pas si présente que cela dans les dialogues de Michael)
 
@@ -141,7 +141,7 @@ Donc plus ce ratio est élevé, plus le modèle et sa combinaison de paramètres
 
 Voici les résultats obtenus :
 
-![Comparaison des combinaisons](Figure_1.png)
+![Comparaison des combinaisons](figures/Figure_1.png)
 
 Concernant la case blanche combinant 1000 dialgues par personnage et un nombre de caractères entre 45 et 85, c'est tout a fait normal car cette combinaison ne résultait en un dataset contenant une seule classe.
 
@@ -166,7 +166,7 @@ On prendra donc la Régression Logistique pour notre modèle final.
 
 ## **Bonus: Application Streamlit** 
 
-![Application Streamlit](Figure_6.png)
+![Application Streamlit](figures/Figure_6.png)
 
 En plus de cela, j'ai pu créer une application Streamlit qui permet de prédire le personnage qui parle en fonction de la phrase que l'on rentre (en Anglais).
 
@@ -174,6 +174,6 @@ L'application est disponible sur le lien suivant : <a href="https://the-office-c
 
 ⚠️ Il est fort probable que l'application soit éteinte lorsque vous cliquerez sur le lien car elle est hébergée sur le serveur gratuit de Streamlit qui s'éteint après un certain temps d'inactivité. Si c'est le cas, il suffit alors simplement de cliquer sur le bouton présent sur le lien pour la relancer : 
 
-![Bouton relancer](Figure_2.png)
+![Bouton relancer](figures/Figure_2.png)
 
 Si besoin, le code pour l'application est disponible sur le repo GitHub suivant : <a href="https://github.com/Nirs123/The_Office_classifier" target="_blank">Lien vers le repo GitHub</a>

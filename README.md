@@ -1,4 +1,4 @@
-# Projet Hate Speech
+# Projet The Office Classifier
 
 Dans ce dossier vous retrouverez :
 
@@ -6,6 +6,7 @@ Dans ce dossier vous retrouverez :
 - Un dossier /notebooks contenant le notebook du projet
 - Un dossier /datasets contenant le dataset utilisé pour le projet
 - Un dossier /streamlit_app contenant les fichiers nécessaire pour lancer notre application Streamlit
+- Un dossier /figures contenant les images et figures utilisées dans le rapport
 
 ## Informations supplémentaires
 
